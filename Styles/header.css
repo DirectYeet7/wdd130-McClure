@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #8b2635;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(3,60px);
+    padding: 20px;
+    justify-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    font-family: "Cinzel";
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h3 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    font-family: "Cinzel";
+    color: lightgray;
+}
+
+nav {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    font-family: "lato";
+}
+
+nav a {
+    padding: 12px;
+    margin: 10px;
+    background-color: #f4d6dc;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+}
