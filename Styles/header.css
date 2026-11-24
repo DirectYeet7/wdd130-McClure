@@ -17,6 +17,7 @@ header {
     padding: 20px;
     justify-items: center;
     gap: 20px;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -53,10 +54,18 @@ nav {
 }
 
 nav a {
+    display: inline-block;
     padding: 12px;
     margin: 10px;
     background-color: #f4d6dc;
     text-decoration: none;
     border-radius: 20px;
     color: black;
+    transition: .3s ease;
+}
+
+nav a:hover {
+    transition: .3s ease;
+    transform: scale(1.1);
+
 }
